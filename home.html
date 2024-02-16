@@ -3,25 +3,28 @@
 	<head>
 		<title>Home</title>
 		<meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
 	</head>
 	<body>
-	<header>
+	<header class="home-header">
 		<p>Technology News<p>
 	</header>
-    <main>
-        <h1>Nejnovější zajímavosti ze světa technologií.</h1>
-        <button type="button">Články</button>
+    <main class="home-main">
+        <div class="home-bigtext">
+            <h1>Nejnovější zajímavosti ze světa technologií.</h1>        
+            <button type="button" class="home-button">Články</button>
+        </div>
         <hr>
-        <section>
+        <div class="home-article">
             <h3>Umělá inteligence</h3>
             <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean fermentum risus id tortor. Aenean id metus id velit ullamcorper pulvinar.
             </p>
-            <img src="../AI.jpg" alt="AI"> 
+            <img src="AI.jpg" alt="AI" class="home-img-ai"> 
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.
             </p>
-        </section>
+        </div>
     </main>
-    <footer>
+    <footer class="home-footer">
         <p>&copy; Radim Barták, 2023</p>
     </footer>
     </body>
