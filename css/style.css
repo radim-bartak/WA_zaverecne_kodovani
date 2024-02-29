@@ -169,3 +169,29 @@ footer {
 .nadpis2 {
     font-size: 30px;
 }
+
+.zarovnani3 {
+    padding: 25px 50px 0 50px;
+}
+
+.zarovnani4 {
+    padding: 25px 50px 0px 50px;
+}
+
+.zarovnani5 {
+    padding: 0 50px 50px 50px;
+}
+
+.zarovnani6 {
+    padding: 0 50px 0px 50px;
+}
+
+#o-nas-title {
+    font-size: 40px;
+    padding: 40px 0 40px 50px;
+}
+
+#o-nas-article-title {
+    font-size: 25px;
+    padding: 0 50px 0px 50px;
+}
